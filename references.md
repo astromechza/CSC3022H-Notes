@@ -29,8 +29,6 @@ C++ pointers are very powerful but unsafe. The alternative to pointers are REFER
         cout << i << endl;          //6
 
         ```
-
-
-
+    SO MUCH CLEANER!
 
 [Back](README.md)
