@@ -1,8 +1,3 @@
-C++ TEST 1 NOTES - MARCH 2013
-=============================
-
-
-
 SCOPE : section of code a variable is visible
 ---------------------------------------------
 - In C++, generally between { }
@@ -38,7 +33,6 @@ SCOPE : section of code a variable is visible
     ```
 
 - Scope resolution can be used to access a variable in global ( ::var ) or namespace ( namespace::var )
-
 
 NAMESPACES : a scope construct
 ------------------------------
@@ -97,7 +91,3 @@ NAMESPACES : a scope construct
 
     namespace tiny = wtfthisnamespaceistoolong;
     ```
-
-
-POINTERS
---------
