@@ -35,10 +35,7 @@ By using ```#include "header"``` you tell the compiler that you need to include 
 the place of the include statement.
 
 ## INCLUDE STATEMENT
-```#include```
 Use ```#include <header>``` for headers that come with the compiler.
 Use ```#include "header"``` for everything else.
-
-
 
 [Back](README.md)
