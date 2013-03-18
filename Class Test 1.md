@@ -1,10 +1,7 @@
 C++ TEST 1 NOTES - MARCH 2013
 =============================
 
-HEADER FILES : hold declarations for other files to use
--------------------------------------------------------
-- Also known as include files
-- test
+
 
 SCOPE : section of code a variable is visible
 ---------------------------------------------
