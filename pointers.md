@@ -56,6 +56,7 @@ region is without knowing what object is represented.
 - The squarebracket notation when denoting an array size just reserves the block of memory for N objects.
 - 2D arrays are also stored in a continuous region, the sub elements are not pointers to arrays, they are arrays themselves.
 - Access the N'th element using pointer arithmetic:
+
 ```c++
 int numbers[10];
 
