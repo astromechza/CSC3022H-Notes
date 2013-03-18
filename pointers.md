@@ -18,11 +18,11 @@ float actualvalue = *ptr;
 float **pointertoapointer;
 float *pointer = *pointertoapointer;
 float actualvalue = *pointer;
-
-float thismeansthesamething = **pointertoapointer; ```
+float thismeansthesamething = **pointertoapointer; 
+```
 
 ## & REFERENCE
-
+- When given an object, you can get a pointer to it by using this reference operator ```&```
 
 
 
