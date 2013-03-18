@@ -69,22 +69,43 @@ std::cout << *(ptr+1) << std::endl;     // 99
 ```
 
 ```c++
-char stuff[] = "bob";
+int stuff[] = {1,2,3};
 std::cout << stuff[0] << std::endl;
 std::cout << stuff[1] << std::endl;
 std::cout << stuff[2] << std::endl;
 
-char* stuff2 = "ann";
+int* stuff2 = "ann";    // this only works with a char const
 std::cout << *(stuff2+0) << std::endl;
 std::cout << *(stuff2+1) << std::endl;
 std::cout << *(stuff2+2) << std::endl;
 
 // get the char * to the first character
-char* stuff3 = stuff;
+int* stuff3 = stuff;
 std::cout << *(stuff3+0) << std::endl;
 std::cout << *(stuff3+1) << std::endl;
 std::cout << *(stuff3+2) << std::endl;
 ```
+## DYNAMIC ALLOCATION
+Dynamic allocation allows us to preallocate space for some objects. 
+- Syntax:
+    ```c++
+    type *pointer = new type[SIZE];
+    ```
+- This, like the ```char * s = "bob";``` syntax, returns a pointer to the first object.
+- Also, this must be deleted with the ```delete [] s;``` syntax.
+
+- 2D arrays:
+    ```c++
+    float **array2d = new float* [Y_SIZE];
+
+    for (int y=0;y<Y_SIZE;++y)
+        array2d[y] = new float [X_SIZE];
+
+    array2d[0][0] = 10.0f;
+    ```
+
+## EXPLICIT DELETING
+Because pointers are not really objects and are just addresses, the garbage collector doesn't clean them up properly. Therefore the object must be deleted explicitly using ```delete pointer;```
 
 
 [Back](README.md)
