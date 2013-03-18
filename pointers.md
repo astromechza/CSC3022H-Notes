@@ -19,8 +19,7 @@ float **pointertoapointer;
 float *pointer = *pointertoapointer;
 float actualvalue = *pointer;
 
-float thismeansthesamething = **pointertoapointer;
-```
+float thismeansthesamething = **pointertoapointer; ```
 
 ## & REFERENCE
 
