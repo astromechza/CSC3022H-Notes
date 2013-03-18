@@ -1,3 +1,5 @@
+[Back](README.md)
+
 SCOPE : section of code a variable is visible
 ---------------------------------------------
 - In C++, generally between { }
@@ -91,3 +93,6 @@ NAMESPACES : a scope construct
 
     namespace tiny = wtfthisnamespaceistoolong;
     ```
+
+
+[Back](README.md)
