@@ -8,25 +8,25 @@ RESOURCE ACQUISITION IS INITIALISATION
     - Aquire / Release
 
 - The deletion is specific and often relies on the destructor function of an Automatic Variable.
-```c++
-class someResource
-{
-    //internal representation holding pointers, handles etc.
-
-public:
-    someResource()
+    ```c++
+    class someResource
     {
-        //Obtain resource.
-    }
+        //internal representation holding pointers, handles etc.
 
-    ~someResource()
-    {
-        //Release resource.
-    }
+        public:
+            someResource()
+            {
+                //Obtain resource.
+            }
 
-};
+            ~someResource()
+            {
+                //Release resource.
+            }
 
-```
+    };
+
+    ```
 
 
 
